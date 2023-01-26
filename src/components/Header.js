@@ -23,6 +23,9 @@ function Header() {
           <a className="header__nav--link" href="#contact-section">
             Contacto
           </a>
+          <a className="header__nav--link" href="#contact-section">
+            En la actualidad...
+          </a>
         </nav>
       </section>
       <section class="hero" id="hero-section">
