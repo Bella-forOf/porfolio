@@ -15,6 +15,9 @@ function Header() {
             Sobre mi
           </a>
           <a className="header__nav--link" href="#projects-section">
+            Formacion y Titulos
+          </a>
+          <a className="header__nav--link" href="#projects-section">
             Proyectos
           </a>
           <a className="header__nav--link" href="#contact-section">
