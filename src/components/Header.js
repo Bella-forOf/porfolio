@@ -4,26 +4,26 @@ import bella from "../images/bella.png";
 function Header() {
   return (
     <>
-      <section className="header">
-        {/* <h1 className="header__title">Bela Garcia</h1> */}
+      <section className="headerr">
+       
         
-        <nav className="header__nav">
+        <nav className="headerr__nav">
           <a className="header__nav--link" href="#hero-section">
             Inicio
           </a>
-          <a className="header__nav--link" href="#about-section">
+          <a className="headerr__nav--link" href="#about-section">
             Sobre mi
           </a>
-          <a className="header__nav--link" href="#projects-section">
+          <a className="headerr__nav--link" href="#projects-section">
             Formacion y Titulos
           </a>
-          <a className="header__nav--link" href="#projects-section">
+          <a className="headerr__nav--link" href="#projects-section">
             Proyectos
           </a>
-          <a className="header__nav--link" href="#contact-section">
+          <a className="headerr__nav--link" href="#contact-section">
             Contacto
           </a>
-          <a className="header__nav--link" href="#contact-section">
+          <a className="headerr__nav--link" href="#contact-section">
             En la actualidad...
           </a>
         </nav>

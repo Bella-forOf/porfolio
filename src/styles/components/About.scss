@@ -7,11 +7,12 @@
   align-items: center;
   font-family: 'Alice', serif;
   line-height: 3rem;
-  height: 1000px;
+
   padding: 2rem 3rem;
-  background: #bcdee7 url(https://picsum.photos/g/3000/2000) no-repeat center
-    center fixed;
+  background-image: url(https://img.freepik.com/foto-gratis/primer-plano-fondo-textura-marmol_23-2148210319.jpg?w=1060&t=st=1675264714~exp=1675265314~hmac=d275f413ff37a39611c9eeea150fa2c5e4da59870391cd6439c891f4cd8b8c7a);
+  background-position: center;
   background-size: cover;
+
   @media (min-width: 1200px) {
     flex-direction: row;
   }
