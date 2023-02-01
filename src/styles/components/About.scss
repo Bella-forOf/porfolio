@@ -7,13 +7,11 @@
   align-items: center;
   font-family: 'Alice', serif;
   line-height: 3rem;
-  height: auto;
+  height: 1000px;
   padding: 2rem 3rem;
-  background-image: linear-gradient(
-    to bottom,
-    var(--lightBlue) 0%,
-    var(--light)
-  );
+  background: #bcdee7 url(https://picsum.photos/g/3000/2000) no-repeat center
+    center fixed;
+  background-size: cover;
   @media (min-width: 1200px) {
     flex-direction: row;
   }

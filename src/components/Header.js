@@ -34,7 +34,7 @@ function Header() {
             <div className="header2">
               
              <a target="_blank" href="#">
-                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="hoverZoomLink"/>
+                <img img className="hoverZoomLink" src={bella} alt="foto de Bella" />
               </a> 
               <h1>
                       Bella García
@@ -53,7 +53,7 @@ function Header() {
               <p>
               Destinada a reinventarme y descubirr mi pasion por la programcion. Este camino me permite dar lo mejor de mi sin ponerme limites. Siempre dispuesta a seguir ampliando conocimientos
               </p>
-          <p>&lt;&gt;Primero resuelve el problema. Entonces, escribe el codigo"</p>
+          <p>&lt;&gt;  "Primero resuelve el problema. Entonces, escribe el codigo"</p>
           <p>John Johnson &lt;/ &gt;</p>
             </div>
           
