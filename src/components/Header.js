@@ -1,4 +1,4 @@
-import linkedIn from "../images/linkedIn_icon.jpg";
+// import linkedIn from "../images/linkedIn_icon.jpg";
 import gitHub from "../images/GitHub-Mark.png";
 import bella from "../images/bella.png";
 function Header() {
@@ -27,28 +27,71 @@ function Header() {
             En la actualidad...
           </a>
         </nav>
-      </section>
-      <section class="hero" id="hero-section">
-        {/* <p className="hero__parag">¡Hola!</p> */}
-        <h2 className="hero__title"><img className="aboutSection__image" src={bella} alt="Foto de Bella" />
-          <span className="span"></span> Bella García Villegas
-        </h2>
-        
-        <p className="hero__parag">Junior Web Developer</p>
-        <div className="hero__icons">
-          <a href="https://www.linkedin.com/in/bella-garcia-villegas-web-developer/">
-            <img
-              src={linkedIn}
-              alt="LinkedIn Icon"
-              className="hero__icons--link"
-            />
-          </a>
-          <a href="https://github.com/bellita85">
-            <img src={gitHub} alt="GitHub Icon" className="hero__icons--git" />
-          </a>
-        </div>
-      </section>
-    </>
+        </section>
+      
+      <>
+      <section className="profile-card">
+            <div className="header2">
+              
+             <a target="_blank" href="#">
+                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="hoverZoomLink"/>
+              </a> 
+              <h1>
+                      Bella García
+                    </h1>
+          
+              
+              <h2>
+                     Junior Web Developer
+                    </h2>
+          
+            </div>
+          
+           
+            <div className="profile-bio">
+          
+              <p>
+              Destinada a reinventarme y descubirr mi pasion por la programcion. Este camino me permite dar lo mejor de mi sin ponerme limites. Siempre dispuesta a seguir ampliando conocimientos
+              </p>
+          <p>&lt;&gt;Primero resuelve el problema. Entonces, escribe el codigo"</p>
+          <p>John Johnson &lt;/ &gt;</p>
+            </div>
+          
+            
+            <ul className="profile-social-links">
+              <li>
+                <a target="_blank" href="x"
+                // "https://www.facebook.com/Jaci-Tech-114514443296902"
+                >
+                  <i className="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="x"
+                // "https://www.instagram.com/stories/highlights/17879839960658479/?hl=es-la"
+                >
+                  <i className="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="x"
+                // "https://www.instagram.com/stories/highlights/17843695007222386/?hl=es-la"
+                >
+                  <i className="fa fa-cubes"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="x"
+                // "https://thedistractedengineer.000webhostapp.com/"
+                >
+                 
+                  <i className="fa fa-desktop"></i>
+                </a>
+              </li>
+            </ul>
+          </section>
+</>
+</>
   );
 }
 
