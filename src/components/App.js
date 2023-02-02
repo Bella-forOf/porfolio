@@ -12,19 +12,64 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Header from "./Header";
 import Projects from "./Projects";
+import Cards from "./Cards";
+import ProjectsInd from "./ProjectsInd";
+import ProjectsTeam from "./ProjectsTeam";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <header>
+      <header >
         <Header />
       </header>
       <main>
-        <About />
-        <Projects />
-        <Contact />
+        <Routes>
+<Route path="/" element={
+<>
+<Cards/>
+<About />
+<Projects />
+
+</>
+}
+>
+</Route>
+<Route path="/projects-individual" element={
+
+  <ProjectsInd/>
+}>
+
+</Route>
+<Route path="/projects-teams" element={
+
+  <ProjectsTeam/>
+}>
+  
+</Route>
+<Route path="/about" element={
+
+<About/>
+}>
+
+</Route>
+<Route path="/Projects" element={
+
+<Projects/>
+}>
+
+</Route>
+<Route path="/contact" element={
+
+<Cards/>
+}>
+
+</Route>
+        </Routes>
+       
       </main>
       <footer>
+        <Contact/>
         <Footer />
       </footer>
     </>

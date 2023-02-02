@@ -1,10 +1,10 @@
 import anime from "../images/mujer.jpg";
-function ProjectsInd() {
+function ProjectsTeam() {
     return (
         <section className="projects" id="projects-section">
       <h3 className="projects__title">proyectos</h3>
       <p className="projects__text">
-        INDIVIDUAL
+        equipo
       </p>
       <div className="containerArticle">
         <article className="projects__article">
@@ -160,4 +160,4 @@ function ProjectsInd() {
     </section>
   );
 }
-export default ProjectsInd;
+export default ProjectsTeam;

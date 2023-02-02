@@ -1,8 +1,7 @@
 // import linkedIn from "../images/linkedIn_icon.jpg";
-import gitHub from "../images/GitHub-Mark.png";
-import bella from "../images/bella.png";
-import email from "../images/email_icon.png";
-import linkedIn from "../images/linkedIn_icon.jpg";
+
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <>
@@ -10,79 +9,24 @@ function Header() {
        
         
         <nav className="headerr__nav">
-        <a className="headerr__nav--link" href="#about-section">
+        <Link className="headerr__nav--link" to="/">
             Inicio   ||
-          </a>
-          <a className="headerr__nav--link" href="#about-section">
+          </Link>
+          <Link className="headerr__nav--link" to="/about">
             Sobre mi    ||
-          </a>
+          </Link>
          
-          <a className="headerr__nav--link" href="#projects-section">
+          <Link className="headerr__nav--link" to="/Projects">
             Proyectos  ||
-          </a>
-          <a className="headerr__nav--link" href="#contact-section">
+          </Link>
+          <Link className="headerr__nav--link" to="/contact">
             Contacto
-          </a>
+          </Link>
          
         </nav>
         </section>
       
-      <>
-      <section className="profile-card">
-            <div className="header2">
-              
-             <a target="_blank" href="#">
-                <img img className="hoverZoomLink" src={bella} alt="foto de Bella" />
-              </a> 
-              <h1>
-                      Bella García
-                    </h1>
-          
-              
-              <h2>
-                     Junior Web Developer
-                    </h2>
-          
-            </div>
-          
-           
-            <div className="profile-bio">
-          
-              <p>
-              Destinada a reinventarme y descubirr mi pasion por la programcion. Este camino me permite dar lo mejor de mi sin ponerme limites. Siempre dispuesta a seguir ampliando conocimientos
-              </p>
-          <p>&lt;&gt;  "Primero resuelve el problema. Entonces, escribe el codigo"</p>
-          <p>John Johnson &lt;/ &gt;</p>
-            </div>
-          
-            
-            <ul className="profile-social-links">
-              <li>
-              <a href="mailto:begodpo@gmail.com">
-          <img className="" src={email} alt="email icon" />
-        </a>
-              </li>
-              <li>
-              <a href="https://github.com/Begodpo">
-          <img className="" src={gitHub} alt="gitHub icon" />
-        </a>
-              </li>
-              <li>
-              <a href="https://www.linkedin.com/in/begoña-del-pozo-oltra/">
-          <img className="" src={linkedIn} alt="linkedIn icon" />
-        </a>
-              </li>
-              <li>
-                {/* <a target="_blank" href="x"
-                // "https://thedistractedengineer.000webhostapp.com/"
-                >
-                 
-                  <i className="fa fa-desktop"></i>
-                </a> */}
-              </li>
-            </ul>
-          </section>
-</>
+      
 </>
   );
 }

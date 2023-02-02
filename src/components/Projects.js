@@ -1,13 +1,6 @@
 import anime from "../images/mujer.jpg";
-// import anonymous from "../images/anonymous_proxy.png";
-// import awesome from "../images/awesome_profile_cards.png";
-// import harry from "../images/harry_potter.png";
-// import inheriteCode from "../images/inherit_code.png";
-// import adalabers from "../images/web_colaborativa_adalabers.png";
-// import gameJs from "../images/rock_paper_scissors.png";
-// import freelancer from "../images/web_freelancer.png";
-// import tshirtStore from "../images/tshirtstore1.png";
 
+import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <section className="projects" id="projects-section">
@@ -16,6 +9,7 @@ function Projects() {
         
       </p>
       <div className="containerArticle">
+      <Link to="/projects-individual" className="n">
         <article className="projects__article">
           <img
             className="projects__article--image"
@@ -26,8 +20,10 @@ function Projects() {
           <p className="projects__article--description">
           || HTML-CSS - SASS || JavaScript – React - APIs || Node JS - Express || SQlite ||
           </p>
-         
+          
         </article>
+        </Link>
+        <Link to="/projects-teams" className="n">
         <article className="projects__article">
           <img
             className="projects__article--image"
@@ -40,7 +36,7 @@ function Projects() {
           </p>
          
         </article>
-       
+        </Link>
       </div>
     </section>
   );
