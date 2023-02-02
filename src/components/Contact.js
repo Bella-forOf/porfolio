@@ -11,12 +11,13 @@ function Contact() {
         <a href="mailto:begodpo@gmail.com">
           <img className="contact__icon" src={email} alt="email icon" />
         </a>
-        <a href="https://www.linkedin.com/in/begoña-del-pozo-oltra/">
-          <img className="contact__icon" src={linkedIn} alt="linkedIn icon" />
-        </a>
         <a href="https://github.com/Begodpo">
           <img className="contact__icon" src={gitHub} alt="gitHub icon" />
         </a>
+        <a href="https://www.linkedin.com/in/begoña-del-pozo-oltra/">
+          <img className="contact__icon" src={linkedIn} alt="linkedIn icon" />
+        </a>
+      
       </div>
     </section>
   );
