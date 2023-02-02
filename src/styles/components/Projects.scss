@@ -1,15 +1,16 @@
 @import '../core/variables';
 
 .projects {
-  font-family: 'Alice', serif;
-  background-color: var(--light);
+  background-image: url(https://img.freepik.com/vector-gratis/papel-pintado-abstracto-blanco_23-2148808302.jpg?w=1380&t=st=1675328551~exp=1675329151~hmac=7f3485d4f271e2a40c2d9337e8e278f6ec05f4cf866beccfdef15cfce9b59dd1);
+  background-position: center;
+
   padding: 2rem 3rem;
-  color: var(--darkBlue);
 
   &__title {
     text-transform: uppercase;
-    font-family: 'Rock Salt', cursive;
-    font-size: 1.7rem;
+
+    font-size: 4rem;
+    text-align: center;
     @media (min-width: 768px) {
       font-size: 2.5rem;
     }
@@ -22,14 +23,15 @@
   }
 
   &__article {
-    background-color: var(--lightBlue);
+    background-color: rgb(170, 170, 170);
     border-radius: 0.6rem;
-    margin-top: 1.6rem;
-    -webkit-box-shadow: 0px 0px 7px 5px rgba(2, 61, 70, 0.61);
-    -moz-box-shadow: 0px 0px 7px 5px rgba(2, 61, 70, 0.61);
-    box-shadow: 0px 0px 7px 5px rgba(2, 61, 70, 0.61);
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(12, 12, 12, 0.61);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(7, 7, 7, 0.61);
+    box-shadow: 0px 0px 7px 5px rgba(10, 10, 10, 0.61);
     text-align: center;
-    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 
     &--image {
       width: 100%;

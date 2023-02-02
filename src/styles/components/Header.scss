@@ -3,7 +3,7 @@
 
 header {
   // overflow: hidden;
-  background: #bcdee7 url(https://picsum.photos/g/3000/2000) no-repeat center
+  background: grey url(https://picsum.photos/g/3000/2000) no-repeat center
     center fixed;
   background-size: cover;
   // position: absolute;
@@ -39,7 +39,7 @@ header:before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Rock Salt', cursive;
+  padding-top: 5px;
   background-color: rgba(0, 10, 11, 0.7);
   position: fixed;
   left: 0%;
@@ -56,7 +56,7 @@ header:before {
   &__nav {
     padding-bottom: 1rem;
     &--link {
-      color: var(--light);
+      color: white;
       font-weight: bold;
       font-family: 'Alice', serif;
       font-size: 1.4rem;
@@ -65,14 +65,14 @@ header:before {
       padding: 1rem;
       border-radius: 0.5rem;
       text-transform: uppercase;
-      transition: color ease 0.7s;
+      transition: color white 0.7s;
       @media (min-width: 768px) {
         font-size: 1.6rem;
       }
     }
     &--link:hover {
-      background-color: var(--lightBlue);
-      color: var(--dark);
+      background-color: white;
+      color: black;
       cursor: pointer;
     }
   }
@@ -148,7 +148,7 @@ p {
   display: inline-block;
   text-align: center;
   position: relative;
-  margin: 25px 30px;
+  margin: 15px 10px;
 }
 
 .profile-card .header2 a > img {
@@ -200,7 +200,7 @@ p {
 
 .profile-social-links li {
   list-style: none;
-  margin: -5px 0px 0px 0px;
+  margin: 0px 0px 0px 20px;
   padding: 0px;
   float: left;
   width: 25%;
@@ -217,16 +217,19 @@ p {
   overflow: hidden !important;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+  text-align: center;
 }
 
 .profile-social-links li a i {
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .profile-social-links li a img,
 .profile-social-links li a svg {
   width: 24px;
+  text-align: center;
 }
 
 @-webkit-keyframes init {

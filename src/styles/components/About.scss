@@ -9,7 +9,7 @@
   line-height: 3rem;
 
   padding: 2rem 3rem;
-  background-image: url(https://img.freepik.com/foto-gratis/primer-plano-fondo-textura-marmol_23-2148210319.jpg?w=1060&t=st=1675264714~exp=1675265314~hmac=d275f413ff37a39611c9eeea150fa2c5e4da59870391cd6439c891f4cd8b8c7a);
+  background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?w=1380&t=st=1675328176~exp=1675328776~hmac=7c4b6ba576aa9321e348d470870ff0f096b0c638ef2b7747424610b2d3521055);
   background-position: center;
   background-size: cover;
 
@@ -24,6 +24,8 @@
     -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     @media (min-width: 768px) {
       width: 200px;
       height: 200px;
@@ -44,8 +46,9 @@
 
     &--title {
       text-transform: uppercase;
-      font-family: 'Rock Salt', cursive;
-      font-size: 1.7rem;
+
+      font-size: 4rem;
+      margin-bottom: 4rem;
       @media (min-width: 768px) {
         font-size: 2.5rem;
       }
@@ -53,6 +56,7 @@
     &--text {
       margin-top: 1.6rem;
       font-size: 1.8rem;
+      padding: 3rem;
       @media (min-width: 768px) {
         font-size: 2.2rem;
         line-height: 4rem;
@@ -63,8 +67,9 @@
     }
     &--button {
       margin-top: 1.6rem;
+      margin-bottom: 6rem;
       padding: 1rem;
-      background-color: var(--medBlue);
+      background-color: black;
       color: var(--light);
       font-size: 1.3rem;
       font-weight: 600;
@@ -88,8 +93,8 @@
     }
     &--button:hover {
       cursor: pointer;
-      background-color: var(--lightBlue);
-      color: var(--dark);
+      background-color: white;
+      color: black;
     }
   }
 }

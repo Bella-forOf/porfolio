@@ -1,11 +1,13 @@
 @import '../core/variables';
 
 .footer {
-  background-color: var(--dark);
+  background-color: white;
   height: 7vh;
-  padding-top: 2.5rem;
+  // padding-top: 2.5rem;
+  // padding-bottom: 1rem;
+  margin-bottom: 20px;
   &__text {
-    color: var(--lightBlue);
+    color: black;
     text-align: center;
   }
 }
