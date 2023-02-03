@@ -18,10 +18,9 @@ function ProjectsTeam() {
           />
           <h4 className="projects__article--name">Leap of faith</h4>
           <p className="projects__article--description">
-            Poyecto individual. Buscador de series de Anime, creado con HTML,
-            SASS y JavaScript
+            Primer proyecto en equipo donde nos damos a conocer con nuestras fortalezas y debilidades. 
           </p>
-          <p> Tecnologias aplicadas: || HTML-CSS - SASS ||  </p>
+          <p> Tecnologias aplicadas: || HTML-CSS - SASS || Git - Github || Agile - Scrum ||</p>
           <a href="https://begodpo.github.io/anime-series/">
             <button className="projects__article--button">Demo</button>
           </a>

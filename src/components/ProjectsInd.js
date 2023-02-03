@@ -17,14 +17,14 @@ function ProjectsInd() {
           <img
             className="projects__article--image"
             src={joya}
-            alt="Imagen del proyecto Rock, Paper & Scissors"
+            alt="Imagen de ordenador y movil para version responsive"
           />
           <h4 className="projects__article--name">La Joya producciones </h4>
           <p className="projects__article--description">
             Creación y mantenimiento Web (2017 - 2020). 
           </p>
           <p> Tecnologias aplicadas: || WordPress - Vimeo || HTML-CSS  ||  </p>
-          <a href="https://github.com/Bella-forOf/Juego-fuerzas-JuegoDeTronos">
+          <a href="http://lajoyaproducciones.com/">
             <button className="projects__article--button">Demo</button>
           </a>
          
@@ -33,17 +33,17 @@ function ProjectsInd() {
           <img
             className="projects__article--image"
             src={dog}
-            alt="Imagen del proyecto Rock, Paper & Scissors"
+            alt="Imagen de ordenador y movil para version responsive"
           />
           <h4 className="projects__article--name">Adopta un perrito</h4>
           <p className="projects__article--description">
             Diseño de landing para web de adopciones de perro. 
           </p>
          <p> Tecnologias aplicadas: || HTML-CSS - SASS ||  </p>
-          <a href="https://github.com/Bella-forOf/Juego-fuerzas-JuegoDeTronos">
+          <a href="https://bella-forof.github.io/Adopta_un_perrito/">
             <button className="projects__article--button">Demo</button>
           </a>
-          <a href="https://github.com/Bella-forOf/Juego-fuerzas-JuegoDeTronos">
+          <a href="https://github.com/Bella-forOf/Adopta_un_perrito">
             <button className="projects__article--button">Repo</button>
           </a>
         </article>
@@ -51,14 +51,14 @@ function ProjectsInd() {
           <img
             className="projects__article--image"
             src={tronos}
-            alt="Imagen del proyecto Rock, Paper & Scissors"
+            alt="Imagen de ordenador "
           />
           <h4 className="projects__article--name">Juego Fuerzas del Bien - Mal</h4>
           <p className="projects__article--description">
             Interesante juego donde eliges con que equipo vas a combatir y al alzar se erigirá el contrincante. ¿Quién ganará?
           </p>
          <p> Tecnologias aplicadas: || HTML-CSS - SASS || JavaScript || </p>
-          <a href="https://github.com/Bella-forOf/Juego-fuerzas-JuegoDeTronos">
+          <a href="https://bella-forof.github.io/Juego-fuerzas-JuegoDeTronos/">
             <button className="projects__article--button">Demo</button>
           </a>
           <a href="https://github.com/Bella-forOf/Juego-fuerzas-JuegoDeTronos">
@@ -69,7 +69,7 @@ function ProjectsInd() {
           <img
             className="projects__article--image"
             src={breaking}
-            alt="Imagen del proyecto Rock, Paper & Scissors"
+            alt="Imagen de ordenador y movil para version responsive"
           />
           <h4 className="projects__article--name">Breaking Bad</h4>
           <p className="projects__article--description">
@@ -87,7 +87,7 @@ function ProjectsInd() {
           <img
             className="projects__article--image"
             src={rick}
-            alt="Imagen del proyecto Rock, Paper & Scissors"
+            alt="Imagen de ordenador y movil para version responsive"
           />
           <h4 className="projects__article--name">Rick and Morty</h4>
           <p className="projects__article--description">
@@ -105,7 +105,7 @@ function ProjectsInd() {
           <img
             className="projects__article--image"
             src={list}
-            alt="Imagen del proyecto Rock, Paper & Scissors"
+            alt="Imagen de ordenador y movil para version responsive"
           />
           <h4 className="projects__article--name">Listado de alumnas</h4>
           <p className="projects__article--description">
@@ -123,7 +123,7 @@ function ProjectsInd() {
           <img
             className="projects__article--image"
             src={event}
-            alt="Imagen del proyecto Rock, Paper & Scissors"
+            alt="Imagen de ordenador y movil para version responsive"
           />
           <h4 className="projects__article--name">Eficient Event</h4>
           <p className="projects__article--description">
