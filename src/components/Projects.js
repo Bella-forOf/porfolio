@@ -1,10 +1,12 @@
-import anime from "../images/mujer.jpg";
+
+import personal from "../images/personal-projects.jpg";
+import personalTeam from "../images/team-projects.jpg";
 
 import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <section className="projects" id="projects-section">
-      <h3 className="projects__title">proyectos</h3>
+      <h3 className="projects__title">|| proyectos ||</h3>
       <p className="projects__text">
         
       </p>
@@ -13,12 +15,12 @@ function Projects() {
         <article className="projects__article">
           <img
             className="projects__article--image"
-            src={anime}
+            src={personal}
             alt="Imagen del proyecto Harry Potter"
           />
-          <h4 className="projects__article--name">Proyectos personales</h4>
+          
           <p className="projects__article--description">
-          || HTML-CSS - SASS || JavaScript – React - APIs || Node JS - Express || SQlite ||
+          || HTML-CSS - SASS || JavaScript – React - APIs || Node JS - Express || SQlite || WorldPress - Vimeo
           </p>
           
         </article>
@@ -27,10 +29,10 @@ function Projects() {
         <article className="projects__article">
           <img
             className="projects__article--image"
-            src={anime}
+            src={personalTeam}
             alt="Imagen del proyecto Inherite Code"
           />
-          <h4 className="projects__article--name">Proyectos en equipo</h4>
+         
           <p className="projects__article--description">
           || HTML-CSS - SASS || JavaScript – React - APIs || Node JS - Express || SQlite ||
           </p>

@@ -48,8 +48,6 @@
   width: 100%;
 
   @media (min-width: 768px) {
-    flex-direction: row;
-    justify-content: space-between;
     padding: 1rem 2rem;
   }
 
@@ -59,7 +57,7 @@
       color: white;
       font-weight: bold;
       font-family: 'Alice', serif;
-      font-size: 1.4rem;
+      font-size: 0.9rem;
       margin: 0.1rem;
       text-decoration: none;
       padding: 1rem;
@@ -525,8 +523,8 @@ p {
     border-radius: 4px;
   }
   100% {
-    width: 380px;
-    height: 480px;
+    width: 315px;
+    height: 500px;
     background: #ffffff;
     border-radius: 4px;
   }

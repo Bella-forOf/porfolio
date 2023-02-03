@@ -27,7 +27,7 @@ function Cards() {
             <div className="profile-bio">
           
               <p>
-              Destinada a reinventarme y descubirr mi pasion por la programcion. Este camino me permite dar lo mejor de mi sin ponerme limites. Siempre dispuesta a seguir ampliando conocimientos
+              Destinada a reinventarme y descubir mi pasión por la programción. Este camino me permite dar lo mejor de mi sin ponerme limites. Siempre dispuesta a seguir ampliando conocimientos.
               </p>
           <p>&lt;&gt;  "Primero resuelve el problema. Entonces, escribe el codigo"</p>
           <p>John Johnson &lt;/ &gt;</p>
@@ -36,17 +36,17 @@ function Cards() {
             
             <ul className="profile-social-links">
               <li>
-              <a href="mailto:begodpo@gmail.com">
+              <a href="mailto:bellagarcia1985@gmail.com">
           <img className="" src={email} alt="email icon" />
         </a>
               </li>
               <li>
-              <a href="https://github.com/Begodpo">
+              <a href="https://github.com/Bella-forOf">
           <img className="" src={gitHub} alt="gitHub icon" />
         </a>
               </li>
               <li>
-              <a href="https://www.linkedin.com/in/begoña-del-pozo-oltra/">
+              <a href="https://www.linkedin.com/in/bella-garcia-villegas-web-developer/">
           <img className="" src={linkedIn} alt="linkedIn icon" />
         </a>
               </li>

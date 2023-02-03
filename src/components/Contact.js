@@ -8,13 +8,13 @@ function Contact() {
       {/* <h3 className="contact__title">contacto</h3> */}
 
       <div className="links-container">
-        <a href="mailto:begodpo@gmail.com">
+        <a href="mailto:bellagarcia1985@gmail.com">
           <img className="contact__icon" src={email} alt="email icon" />
         </a>
-        <a href="https://github.com/Begodpo">
+        <a href="https://github.com/Bella-forOf">
           <img className="contact__icon" src={gitHub} alt="gitHub icon" />
         </a>
-        <a href="https://www.linkedin.com/in/begoña-del-pozo-oltra/">
+        <a href="https://www.linkedin.com/in/bella-garcia-villegas-web-developer/">
           <img className="contact__icon" src={linkedIn} alt="linkedIn icon" />
         </a>
       
