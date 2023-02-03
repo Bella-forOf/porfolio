@@ -34,7 +34,7 @@ function ProjectsTeam() {
             src={spotify}
             alt="Imagen del proyecto Awesome Profile-Cards"
           />
-          <h4 className="projects__article--name">spot</h4>
+          <h4 className="projects__article--name">spotify</h4>
           <p className="projects__article--description">
             Proyecto en equipo. Web para crear tarjetas de visita
             personalizadas, con HTML, SASS y JavaScript.
