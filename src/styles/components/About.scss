@@ -1,102 +1,94 @@
 @import '../core/variables';
-
-.aboutSection {
+.photo2 {
+  position: relative;
+}
+.photo1_img {
+  width: 250px;
+  height: 180px;
+  margin-left: 3rem;
+  background-size: cover;
+}
+.photo2_img {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  top: -80px;
+  left: 70px;
+}
+.photo3_img {
+  width: 250px;
+  height: 180px;
+  margin-left: 3rem;
+  background-size: cover;
+  margin-top: 6rem;
+  margin-left: 40px;
+  margin-bottom: 5rem;
+}
+.photo2_div {
+  background-color: blanchedalmond;
+  width: 200px;
+  height: 140px;
+  position: absolute;
+  top: -60px;
+  left: 100px;
+  text-align: end;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+
+  opacity: 80%;
+  box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+  border-radius: 20%;
+}
+.photo2_text {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  font-family: 'Alice', serif;
-  line-height: 3rem;
-
-  padding: 2rem 3rem;
-  background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?w=1380&t=st=1675328176~exp=1675328776~hmac=7c4b6ba576aa9321e348d470870ff0f096b0c638ef2b7747424610b2d3521055);
-  background-position: center;
+}
+.about_photo2 {
+  position: relative;
+}
+.about_photo1_img {
+  width: 190px;
+  height: 250px;
+  margin-left: 3rem;
   background-size: cover;
-
-  @media (min-width: 1200px) {
-    flex-direction: row;
-  }
-
-  &__image {
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    @media (min-width: 768px) {
-      width: 200px;
-      height: 200px;
-    }
-    @media (min-width: 1200px) {
-      order: 2;
-      width: 350px;
-      height: 350px;
-      margin-right: 10rem;
-    }
-  }
-  &__article {
-    text-align: justify;
-    margin-top: 3rem;
-    @media (min-width: 768px) {
-      margin-top: 5rem;
-    }
-
-    &--title {
-      text-transform: uppercase;
-
-      font-size: 3rem;
-      margin-bottom: 4rem;
-      @media (min-width: 768px) {
-        font-size: 4rem;
-      }
-    }
-    &--text {
-      margin-top: 1.6rem;
-      font-size: 1.2rem;
-      padding: 1rem;
-      @media (min-width: 768px) {
-        padding: 5rem;
-        font-size: 2.2rem;
-        line-height: 4rem;
-      }
-      @media (min-width: 1200px) {
-        padding: 7rem;
-        width: 90%;
-      }
-    }
-    &--button {
-      margin-top: 1.6rem;
-      margin-bottom: 6rem;
-      padding: 1rem;
-      background-color: black;
-      color: var(--light);
-      font-size: 1.3rem;
-      font-weight: 600;
-      border-radius: 0.5rem;
-      border: none;
-      -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
-      -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
-      box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
-      border-bottom: none;
-      transition: color ease 0.7s;
-      width: 100%;
-      text-align: center;
-      @media (min-width: 768px) {
-        margin-top: 2.5rem;
-        font-size: 1.6rem;
-        width: 30%;
-      }
-      @media (min-width: 1200px) {
-        width: 20%;
-      }
-    }
-    &--button:hover {
-      cursor: pointer;
-      background-color: white;
-      color: black;
-    }
-  }
+}
+.about_photo2_img {
+  width: 220px;
+  height: 320px;
+  position: absolute;
+  top: -80px;
+  left: 90px;
+}
+.about_photo3_img {
+  width: 190px;
+  height: 250px;
+  margin-left: 3rem;
+  background-size: cover;
+  margin-top: 13rem;
+  margin-left: 4rem;
+}
+.about_photo2_div {
+  background-color: blanchedalmond;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: -50px;
+  left: 110px;
+  text-align: end;
+  display: flex;
+  opacity: 80%;
+  box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+  border-radius: 30%;
+}
+.about_photo3_div_text {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }

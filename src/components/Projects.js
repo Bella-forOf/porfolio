@@ -3,9 +3,12 @@ import personal from "../images/personal-projects.jpg";
 import personalTeam from "../images/team-projects.jpg";
 
 import { Link } from 'react-router-dom';
+import Header from "./Header";
+
 function Projects() {
   return (
     <section className="projects" id="projects-section">
+      <Header/>
       <h3 className="projects__title">|| proyectos ||</h3>
       <p className="projects__text">
         
@@ -40,6 +43,7 @@ function Projects() {
         </article>
         </Link>
       </div>
+     
     </section>
   );
 }

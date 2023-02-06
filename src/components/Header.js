@@ -5,7 +5,23 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      <section className="headerr">
+    <section className="header">
+
+<div className="nav-header">
+
+    <div className="nav-header-div">
+    <p className="link"><Link title="Home" className="enlace-nav" to="./">Home</Link></p>
+    <p className="link"><Link title="Works" className="enlace-nav" to="./" target="_blank">Works</Link>
+    </p>
+      </div>
+      
+    <p className="works"><Link title="Ir a Quiénes somos" className="enlace-nav" to="./">Sobre
+            mi</Link></p>
+   
+
+</div>
+</section>
+      {/* <section className="headerr">
        
         
         <nav className="headerr__nav">
@@ -24,7 +40,7 @@ function Header() {
           </Link>
          
         </nav>
-        </section>
+        </section> */}
       
       
 </>

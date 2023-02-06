@@ -1,4 +1,4 @@
-import anime from "../images/mujer.jpg";
+
 import joya from "../images/joya.jpg";
 import dog from "../images/dog.jpg";
 import tronos from "../images/juego-tronos.jpg";
@@ -6,9 +6,11 @@ import breaking from "../images/breaking.jpg";
 import rick from "../images/rick.jpg";
 import list from "../images/list-adalabers.jpg";
 import event from "../images/event.jpg";
+import Header from "./Header";
 function ProjectsInd() {
     return (
         <section className="projects" id="projects-section">
+          <Header/>
       <h3 className="projects__title">proyectos</h3>
       
       

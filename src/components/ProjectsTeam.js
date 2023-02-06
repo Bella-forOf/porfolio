@@ -3,9 +3,11 @@ import ahorcado from "../images/ahorcado.jpg";
 import leap from "../images/leap.jpg";
 import duquesas from "../images/duquesas.jpg";
 import spotify from "../images/spotify.jpg";
+import Header from "./Header";
 function ProjectsTeam() {
     return (
         <section className="projects" id="projects-section">
+          <Header/>
       <h3 className="projects__title">proyectos</h3>
       
       <div className="containerArticle">

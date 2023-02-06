@@ -12,7 +12,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Header from "./Header";
 import Projects from "./Projects";
-import Cards from "./Cards";
+import Landing from "./Landing";
 import ProjectsInd from "./ProjectsInd";
 import ProjectsTeam from "./ProjectsTeam";
 import { Route, Routes } from "react-router-dom";
@@ -21,13 +21,13 @@ const App = () => {
   return (
     <>
       <header >
-        <Header />
+    
       </header>
       <main>
         <Routes>
 <Route path="/" element={
 <>
-<Cards/>
+<Landing/>
 <About />
 <Projects />
 
@@ -59,12 +59,7 @@ const App = () => {
 }>
 
 </Route>
-<Route path="/contact" element={
 
-<Cards/>
-}>
-
-</Route>
         </Routes>
        
       </main>
