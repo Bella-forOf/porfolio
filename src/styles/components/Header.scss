@@ -3,14 +3,19 @@
 .header {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding-top: 40px;
   margin-bottom: 5rem;
 }
 .nav-header-div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  text-decoration: none;
 }
 .works {
   text-align: center;
+}
+.enlace-nav {
+  text-decoration: none;
+  color: black;
 }

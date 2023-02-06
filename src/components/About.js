@@ -36,10 +36,17 @@ function About() {
 
     <div className="about_photo2">
     <img className="about_photo2_img" src={foto2} alt="paisaje" />
-        <div className="about_photo3_div">
-            <p className="about_photo3_div_text">
-skill
+        <div className="about_photo2_div">
+            
+            <p className="about_photo3_div_text2">
+           // HTML-CSS // //JavaScript - React // //Node JS - Express 
+           // // SQlite // Git - Github // // Agile - Scrum
             </p>
+            <p className="about_photo3_div_text">
+        - Inteligencia emocional  -  Resolucion de problemas - Colaboracion 
+           Empatia // Gestion del tiempo // // Liderazco
+            </p>
+            
         </div>
 
     </div>
@@ -47,7 +54,7 @@ skill
     <img className="about_photo3_img" src={foto1} alt="paisaje" />
     
     </div>
-    <a href={cv} download="CV_Bella_Garcia_Villegas_web_developer__.pdf">
+    <a className="button" href={cv} download="CV_Bella_Garcia_Villegas_web_developer__.pdf">
 <button className="about_button">
   Descargar CV
 </button> </a>

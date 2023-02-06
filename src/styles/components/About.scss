@@ -85,6 +85,7 @@
   background-size: cover;
   margin-top: 13rem;
   margin-left: 4rem;
+  margin-bottom: 10rem;
 }
 .about_photo2_div {
   background-color: blanchedalmond;
@@ -95,6 +96,7 @@
   left: 110px;
   text-align: center;
   display: flex;
+  flex-direction: column;
   opacity: 80%;
   box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
   grid-row-start: 1;
@@ -106,4 +108,12 @@
   display: flex;
   justify-content: center;
   padding: 10px;
+}
+.button {
+  display: flex;
+  justify-content: end;
+  margin-right: 5rem;
+
+  padding-bottom: 50px;
+  padding-top: 50px;
 }

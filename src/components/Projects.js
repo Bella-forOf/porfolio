@@ -9,11 +9,9 @@ function Projects() {
   return (
     <section className="projects" id="projects-section">
       <Header/>
-      <h3 className="projects__title">|| proyectos ||</h3>
-      <p className="projects__text">
-        
-      </p>
-      <div className="containerArticle">
+   
+      
+      <div className="container_article">
       <Link to="/projects-individual" className="n">
         <article className="projects__article">
           <img
@@ -23,7 +21,7 @@ function Projects() {
           />
           
           <p className="projects__article--description">
-          || HTML-CSS - SASS || JavaScript – React - APIs || Node JS - Express || SQlite || WorldPress - Vimeo
+          || HTML-CSS - SASS || JavaScript – React - APIs || Node JS - Express || SQlite || WorldPress - Vimeo ||
           </p>
           
         </article>
