@@ -19,8 +19,17 @@ function Landing() {
         <div className="photo2_div">
             <p className="photo2_text">
            
-bella irene
+Bella García Villegas Junior Web Developer
             </p>
+            <p className="photo2_text2">
+           
+           "Primero resuelve el problema.
+                       </p>
+                       <p className="photo2_text2">
+           
+          Entonces escribe el codigo"
+                       </p>
+                       <p className="photo2_text3">John Jhonson</p>
             <Contact/>
         </div>
 

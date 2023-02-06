@@ -21,7 +21,7 @@ function About() {
     <img className="about_photo2_img" src={foto2} alt="paisaje" />
         <div className="about_photo2_div">
             <p className="about_photo3_div_text">
-about
+            Muy proactiva y siempre en constante evolución. Mis mas de 15 años de experiencia laboral en diferentes sectores me permiten dar un enfoque maduro y eficiente. Me considero una persona muy organizada y resolutiva. 
             </p>
         </div>
 
