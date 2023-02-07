@@ -4,7 +4,7 @@ import email from "../images/email.png";
 
 function Contact() {
   return (
-    <section className="contact" id="contact-section">
+    <section className="contact">
       
       <div className="links-container">
         <a href="mailto:bellagarcia1985@gmail.com">

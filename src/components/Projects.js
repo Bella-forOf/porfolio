@@ -7,7 +7,7 @@ import Header from "./Header";
 
 function Projects() {
   return (
-    <section className="projects" id="projects-section">
+    <section className="projects" >
       <Header/>
    
       
