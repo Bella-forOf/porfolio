@@ -10,13 +10,12 @@ function Header() {
 <div className="nav-header">
 
     <div className="nav-header-div">
-    <p className="link"><Link title="Home" className="enlace-nav" to="./">Home</Link></p>
-    <p className="link"><Link title="Works" className="enlace-nav" to="./" target="_blank">Works</Link>
+    <p className="link"><Link title="Home" className="enlace-nav" to="/">Home</Link></p>
+    <p className="link"><Link title="Works" className="enlace-nav" to="/Projects" >Works</Link>
     </p>
       </div>
       
-    <p className="works"><Link title="Ir a Quiénes somos" className="enlace-nav" to="./">Sobre
-            mi</Link></p>
+    <p className="aboutMe"><Link title="About me" className="enlace-nav" to="/about">About me</Link></p>
    
 
 </div>
