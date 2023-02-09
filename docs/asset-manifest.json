@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7a02e74f.css",
-    "main.js": "./static/js/main.dd5a60cb.js",
+    "main.js": "./static/js/main.ce54b63d.js",
     "static/media/horizontal3.jpg": "./static/media/horizontal3.5fb506284bb6cd082dd5.jpg",
     "static/media/tumbada3.jpg": "./static/media/tumbada3.7e4abbe3c8ce1592dc2b.jpg",
     "static/media/horizontal1.jpg": "./static/media/horizontal1.6831c2436f8b9e369738.jpg",
@@ -30,10 +30,10 @@
     "static/media/email.png": "./static/media/email.edde96781f1253399d92.png",
     "index.html": "./index.html",
     "main.7a02e74f.css.map": "./static/css/main.7a02e74f.css.map",
-    "main.dd5a60cb.js.map": "./static/js/main.dd5a60cb.js.map"
+    "main.ce54b63d.js.map": "./static/js/main.ce54b63d.js.map"
   },
   "entrypoints": [
     "static/css/main.7a02e74f.css",
-    "static/js/main.dd5a60cb.js"
+    "static/js/main.ce54b63d.js"
   ]
 }
